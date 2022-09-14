@@ -42,7 +42,7 @@ function BannerComponent({ mode, carouselOnMobile, items }) {
                 {item.type === "cta" && (
                   <>
                     <h1>{item.title}</h1>
-                    <a href={`/${item.link}`}>
+                    <a href={item.link}>
                       <button>{item.button}</button>
                     </a>
                   </>
@@ -72,7 +72,7 @@ function BannerComponent({ mode, carouselOnMobile, items }) {
                   {item.type === "cta" && (
                     <>
                       <h1>{item.title}</h1>
-                      <a href={`/${item.link}`}>
+                      <a href={item.link}>
                         <button>{item.button}</button>
                       </a>
                     </>
