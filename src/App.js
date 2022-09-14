@@ -6,7 +6,7 @@ import "@splidejs/react-splide/css/skyblue";
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello Butopea</h1>
+      <h1>Hello CSS Flex</h1>
       <BannerComponent
         mode="square"
         carouselOnMobile={false}
